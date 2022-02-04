@@ -13,6 +13,7 @@ body{
 .header-wrapper{
   margin: 0px;
   padding: 0px;
+  margin-bottom: 100px;
 }
 
 .nav-wrapper{
@@ -60,6 +61,7 @@ body{
   box-sizing: border-box;
 	text-align: center;
   color: #FCFCFC;
+  box-shadow: 0 4px 8px 0 rgba(255, 255, 255, 0.8);
 }
 
 .content{
@@ -99,4 +101,67 @@ body{
 
 .section2:hover{
   box-shadow: 0 8px 16px 0 rgba(255, 255, 255, 0.4);
+}
+
+.active{
+  background-color: #CF995F;
+}
+
+.section a{
+  border-radius: 12px;
+  margin: 40px;
+  background-color: #CF995F;
+  display: block;
+  color: #272932;
+  text-align: center;
+  padding: 6px;
+  width: 30%;
+  height: 15%;
+  text-decoration: none;
+  padding-top: 20px;
+  font-size: large;
+  transition: 0.4s; 
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.6);
+}
+
+.section a:hover{
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.8);
+}
+
+.skip-down a{
+  padding-bottom: 100px;
+  color: #FCFCFC;
+  padding-left: 660px;
+  font-size: small;
+}
+
+
+#info{
+  margin-top: 400px;
+}
+
+#info .section2{
+  text-align: right;
+}
+
+#info .section2 a{
+  border-radius: 12px;
+  margin-left: 800px;
+  margin-top: 50px;
+  background-color: #CF995F;
+  display: block;
+  color: #272932;
+  text-align: center;
+  padding: 6px;
+  width: 30%;
+  height: 15%;
+  text-decoration: none;
+  padding-top: 20px;
+  font-size: large;
+  transition: 0.4s; 
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.6);
+}
+
+#info .section2 a:hover{
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.8);
 }
